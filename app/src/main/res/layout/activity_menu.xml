@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_app"
+    tools:context=".MenuActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaludar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="center"
+        android:text="Saluda"
+        android:radius="200dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="center"
+        android:text="Calcula tu IMC"
+        android:textColor="@color/white"
+        android:radius="200dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textSize="18sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
